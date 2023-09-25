@@ -15,7 +15,7 @@ def sort_numbers_desc_decl(numbers):
 
 
 numbers = [randint(0, 100) for i in range(int(input()))]
-if numbers == list () or len(numbers) <= 0:
+if len(numbers) <= 0:
         raise ValueError('На вход должен подаваться непустой целочисленный список')
 print(numbers)
 # импративный стиль
